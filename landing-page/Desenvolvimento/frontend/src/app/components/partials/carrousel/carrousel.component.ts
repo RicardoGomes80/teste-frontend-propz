@@ -6,7 +6,8 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   templateUrl: './carrousel.component.html',
   styleUrls: ['./carrousel.component.scss']
 })
-export class CarrouselComponent {
+export class CarrouselComponent { 
+  
   constructor() { }
   customOptions: OwlOptions = {
     loop: true,
@@ -15,7 +16,7 @@ export class CarrouselComponent {
     pullDrag: false,
     dots: false,
     navSpeed: 600,
-    navText: ['&#8249', '&#8250;'],
+    //navText: ['&#8249', '&#8250;'],
     responsive: {
       0: {
         items: 1 

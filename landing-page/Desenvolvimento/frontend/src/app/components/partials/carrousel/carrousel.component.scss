@@ -1,0 +1,121 @@
+.bg-carousel{
+    background-size: auto;
+    top: 0;
+    margin-top: 55px;
+    @media only screen and (max-width: 600px) {
+        background-size: contain;
+        top: 0;
+    }
+}
+
+.carousel-products{
+
+    .slide{
+        .item{           
+            padding: 0 10px;
+            position: relative;
+            z-index: 0;
+            @media only screen and (max-width: 600px) {
+                padding: 0 80px;
+            }
+            figure{
+                margin: 0;
+                padding: 0px;
+                box-sizing: border-box;
+                img{
+                    mix-blend-mode: multiply;
+                }
+            }
+            .product-body{              
+                padding-top: 30px;
+                .product-title{                      
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    color: #010000;
+                    font-size: 14px;
+                    line-height: 1.4;
+                    font-weight: 500;
+                    border-bottom: 2px solid currentColor;
+                    margin-bottom: 10px;
+                    padding-bottom: 10px;      
+                    .name{
+                        width: 70%;
+                    }
+                    .type{
+                        width: 30%;
+                        font-weight: 500;
+                    }                    
+                }
+                .product-text{
+                    .currency,.payment-cards,.installment{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .currency{
+                       .price{
+                            width: 60%;
+
+                       }
+                       .payment-cards{
+                            width: 40%;
+                       }
+                    }
+                    .price{
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        sup{
+                            font-size: 13px;
+                            position: relative;
+                            top: 3px;
+                            font-weight: 600;
+                        }
+                        small{
+                            text-transform: lowercase;
+                            font-size: 12px;
+                            font-weight: 600;
+                            width: 100%;
+                            display: inline-block;
+                            position: relative;
+                            top: -5px;
+                            sup{
+                                font-size: 10px;
+                                position: relative;
+                                top:3px;
+                            }
+                        }
+                    }
+                    .payment-cards{                      
+                        span{
+                            padding: 0 5px;
+                        }
+                    }
+                    .installment{
+                        align-items: flex-start;
+                        .price,.price-value{
+                            width: 50%;
+                            box-sizing: border-box;
+                        }
+                    }
+                    .product-link{
+                        position: absolute;
+                        z-index: 2;
+                        top:0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        font-size: 0;
+                        text-decoration: none;
+                    }
+                }
+            }            
+        }
+    }
+  
+}
+
+
+
+
