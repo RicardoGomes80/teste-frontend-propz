@@ -1,0 +1,67 @@
+footer{
+    padding-top: 50px;
+    display: block;
+    img{
+        max-width: 100px;
+        margin: 0 auto;
+        display: block;
+        padding: 50px 0 30px;       
+    }
+    .lojas-propz{
+        border: 4px solid #df993c;
+        padding: 20px;
+        @media only screen and  (max-width: 600px) {
+            width: 80%;
+            margin: 0 auto;
+        }
+        h4,ul li a{
+            color: #40464a;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        h4{
+            text-align: center;
+            border-bottom: 2px solid #c5bfa8;
+            padding-bottom: 25px;
+        }
+        ul{           
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            padding-top: 25px;
+            @media only screen and  (max-width: 600px) {
+                flex-direction: column;
+                padding-top: 35px;
+                padding-bottom: 20px;
+                justify-content: center;
+            }
+            li{ 
+                @media only screen and  (max-width: 600px) {
+                    padding: 10px 0px;
+                }
+                a{
+                   
+                }
+            }
+        }
+    }
+    .footer-content{
+        width: 100%;
+        padding: 0px 70px 30px;
+        @media only screen and  (max-width: 600px) {
+            padding: 0px 30px 15px;
+        }
+        p{
+            font-weight: 500;           
+            line-height: 1.4;
+            a{
+                text-decoration: none;
+                color: #5e5e5e;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
