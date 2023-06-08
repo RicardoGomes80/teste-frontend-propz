@@ -1,0 +1,27 @@
+section{
+    .bg-home{
+        background-image: url(/assets/img/backgrond-home.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-attachment: initial;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+        top: -20px;
+    }
+    .space-content{      
+        padding: 120px 0;      
+    }   
+    article{
+        h2{
+            font-size: 18px;
+            text-align: center;
+            padding: 0px 190px;
+            color: #444444;
+            strong{
+                display: inline-block;
+                width: 100%;
+            }
+        }
+    }
+}
