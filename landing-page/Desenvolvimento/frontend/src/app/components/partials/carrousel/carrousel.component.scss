@@ -46,9 +46,11 @@
                     .type{
                         width: 30%;
                         font-weight: 500;
+                        text-align: right;
                     }                    
                 }
                 .product-text{
+                    border-bottom: 2px solid currentColor;
                     .currency,.payment-cards,.installment{
                         display: flex;
                         align-items: center;

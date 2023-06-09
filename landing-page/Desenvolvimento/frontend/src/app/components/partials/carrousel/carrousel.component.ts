@@ -26,7 +26,7 @@ export class CarrouselComponent {
       },
       760: {
         items: 3
-      },
+      },    
       1000: {
         items: 4
       }
