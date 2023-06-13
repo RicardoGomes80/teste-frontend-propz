@@ -4,7 +4,7 @@ Teste com dois projetos:
 -  1 - Email marketing
 
 ### Descrição :
-Feito em HTML(xHTML) e CSS inline ja com os parametros para Salesforce/Ms Ou
+Feito em HTML(xHTML) e CSS inline ja com os parametros para Salesforce/Ms Outlook
 
  Desktop e mobile 
  Segue abaixo caminho para Teste
