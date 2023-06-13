@@ -1,50 +1,52 @@
 <div class="container bg-principal bg-carousel">
   <owl-carousel-o [options]="customOptions" class="carousel-products">
-    <ng-template carouselSlide>
-      <div class="slide">
-        <div class="item">
-          <figure>
-            <img src="https://img.drogaraia.com.br/catalog/product/p/r/prod_202305101212389767.jpg" />
-          </figure>
-          <div class="product-body">
-            <h5 class="product-title">
-              <span class="name">
-                Good Girl Supreme De Carolina Herrera Eau De Parfum Feminino
-              </span>
-              <strong class="type">
-                80 ML
-              </strong>
-            </h5>
-            <div class="product-text">
-              <div class="currency">
-                <div class="price">
-                  10 x <sup>R$</sup> 63,15
-                  <small>sem juros <sup>1</sup></small>
+    <ng-container *ngFor="let slide of dynamicSlides">
+      <ng-template carouselSlide [id]="slide.id">
+        <div class="slide">
+          <div class="item">
+            <figure>
+              <img [src]="slide.src" [alt]="slide.name" [title]="slide.name">
+            </figure>
+            <div class="product-body">
+              <h5 class="product-title">
+                <span class="name">
+                  {{slide.name}}
+                </span>
+                <strong class="type">
+                  {{slide.ml}}
+                </strong>
+              </h5>
+              <div class="product-text">
+                <div class="currency">
+                  <div class="price">
+                    10 x <sup>R$</sup> {{slide.currency}}
+                    <small>sem juros <sup>1</sup></small>
+                  </div>
+                  <div class="payment-cards">
+                      <span><img src="/assets/img/logo_visa.svg" alt="logo Visa" /></span>
+                      <span><img src="/assets/img/logo-mastercard.svg" alt="logo Mastercard" /></span>
+                  </div>
                 </div>
-                <div class="payment-cards">
-                    <span><img src="/assets/img/logo_visa.svg" alt="logo Visa" /></span>
-                    <span><img src="/assets/img/logo-mastercard.svg" alt="logo Mastercard" /></span>
-                </div>
+                <div class="installment">
+                  <div class="price">
+                    15 x <sup>R$</sup>{{slide.installment}}
+                    <small>com juros <sup>2</sup></small>
+                  </div>
+                  <div class="price-value">
+                    ou R$ {{slide.price}} á vista
+                  </div>
+                </div>            
+                <a
+                  href="{{slide.link}}"
+                  class="product-link" target="_blank">Good Girl Supreme De
+                  Carolina Herrera Eau De Parfum Feminino</a>
               </div>
-              <div class="installment">
-                <div class="price">
-                  15 x <sup>R$</sup>55,65
-                  <small>com juros <sup>2</sup></small>
-                </div>
-                <div class="price-value">
-                  ou R$ 639,15 á vista
-                </div>
-              </div>            
-              <a
-                href="https://www.drogaraia.com.br/carolina-herrera-good-girl-dot-drama-eau-de-parfum-80ml-692421.html?srsltid=AR57-fDvSeqvEwJF4AQy4r6MAgxVkf8D7SLdLgRGTWapm7ue3yDccswiv4g"
-                class="product-link" target="_blank">Good Girl Supreme De
-                Carolina Herrera Eau De Parfum Feminino</a>
             </div>
           </div>
         </div>
-      </div>
-    </ng-template>
-    <ng-template carouselSlide>
+      </ng-template>
+    </ng-container>
+    <!-- <ng-template carouselSlide>
       <div class="slide">
         <div class="item">
           <figure>
@@ -439,6 +441,6 @@
           </div>
         </div>
       </div>
-    </ng-template>
+    </ng-template> -->
   </owl-carousel-o>
 </div>

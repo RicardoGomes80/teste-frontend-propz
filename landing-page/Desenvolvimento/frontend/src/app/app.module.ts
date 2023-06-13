@@ -10,6 +10,11 @@ import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { CarrouselComponent } from './components/partials/carrousel/carrousel.component';
+import { ProdutosListarComponent } from './services/produtos-listar/produtos-listar.component';
+
+import { HttpClientModule } from '@angular/common/http';
+
+import { ProdutosService } from './produtos.service';
 
 
 @NgModule({
@@ -19,15 +24,17 @@ import { CarrouselComponent } from './components/partials/carrousel/carrousel.co
     FooterComponent,
     HomeComponent,
     CarrouselComponent,
+    ProdutosListarComponent,
     
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     CarouselModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ProdutosService,HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
