@@ -20,6 +20,7 @@ Feito em HTML(xHTML) e CSS inline ja com os parametros para Salesforce/Ms Outloo
 
 ### Descrição :
  Para rodar local rodar
+ "npm install" ´pra instalar os pacotes do Node e depois
  "npm run start" na pasta acima.
 
  Feito com : Angular , Typescript alem de HTML e CSS 
