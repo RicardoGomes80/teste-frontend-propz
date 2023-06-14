@@ -1,15 +1,104 @@
 {
-  "products": [
+  "products": [   
     {
       "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": "5.89"
+      "name":"Good Girl Supreme De Carolina Herrera Eau De Parfum Feminino",
+      "ml":"80 ML",
+      "src":"https://img.drogaraia.com.br/catalog/product/p/r/prod_202305101212389767.jpg",     
+      "currency": "63,15",
+      "installment": "55,65",
+      "price": "639,15",
+      "link": "https://www.drogaraia.com.br/carolina-herrera-good-girl-dot-drama-eau-de-parfum-80ml-692421.html?srsltid=AR57-fDvSeqvEwJF4AQy4r6MAgxVkf8D7SLdLgRGTWapm7ue3yDccswiv4g"
     },
     {
       "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": "12000.89"
-    }
- 
+      "name": "Ck One Summer Relax Calvin Klein Eau de Toilette Unissex",
+      "ml":"100 ML",
+      "src":"https://img.drogaraia.com.br/catalog/product/p/r/prod_202305251802228296.jpg",     
+      "currency": "42,00",
+      "installment": "38,00",
+      "price" : "420,00",
+      "link": "https://www.drogaraia.com.br/ck-one-summer-relax-calvin-klein-eau-de-toilette-unisex-731455.html"
+    },
+    {
+      "id": 3,
+      "name": "Very Good Girl Glam Carolina Herrera Eau de Parfum",
+      "ml":"80 ML",
+      "src":"https://epocacosmeticos.vteximg.com.br/arquivos/ids/484446/very-good-girl-glam-carolina-herrera-perfume-feminino-eau-de-parfum.jpg",     
+      "currency": "67,49",
+      "installment": "65,70",
+      "price" : "674,90",
+      "link": "https://www.belezanaweb.com.br/very-good-girl-glam-carolina-herrera-eau-de-parfum-perfume-feminino-80ml/"
+    },   
+    {
+      "id": 4,
+      "name": "Cuté La Rive Eau de Parfum",
+      "ml":"100 ML",
+      "src":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQd4neI8uYF2Swjffad2_XeDC-bIo9WDikq92jWuZk9_JXFvdWlN_F8THsPcerSY1tIymrMDR3RxdcRNKSbr8QJsQEC3I016vxv-wWC4qvZk3mhOSzIsnNf&usqp=CAE",     
+      "currency": "8,90",
+      "installment": "15,90",
+      "price" : "80,90",
+      "link": "https://www.belezanaweb.com.br/cute-la-rive-eau-de-parfum-perfume-feminino-100ml/"
+    },     
+    {
+      "id": 5,
+      "name": "CH Carolina Herrera Eau de Toilette",
+      "ml":"100 ML",
+      "src":"https://cdn.vnda.com.br/dolcevitaperfumes/2021/11/16/17_11_7_793_CHCarolinaHerreraPerfumeFemininoEaudeToilettefrasco.jpg",     
+      "currency": "61,09",
+      "installment": "58,99",
+      "price": "610,90",
+      "link": "https://www.belezanaweb.com.br/ch-carolina-herrera-eau-de-toilette-perfume-feminino-100ml"
+    },
+    {
+      "id": 6,
+      "name": "CK Everyone Calvin Klein Eau de Toilette",
+      "ml":"200 ML",
+      "src": "https://calvinklein.vtexassets.com/arquivos/ids/620668-800-800?v=638075142160300000&width=800&height=800&aspect=true",     
+      "currency": "48,99",
+      "installment": "59,90",
+      "price": "489,90",
+      "link": "https://www.belezanaweb.com.br/ck-everyone-calvin-klein-eau-de-toilette-perfume-unissex-200ml/"
+    },
+    {
+      "id": 7,
+      "name": "Nectarina da Andaluzia Phebo Eau de Cologne",
+      "ml":"200 ML",
+      "src":"https://images2.marisa.com.br/medias/sys_master/images/images/h90/h9d/10849601191966/COL-PHEBO-NECTARINA-ANDALUZIA-200-ML-10036345694-C5.jpg",     
+      "currency": "6,90",
+      "installment": "8,99",
+      "price": "60,90",
+      "link": "https://www.belezanaweb.com.br/nectarina-da-andaluzia-phebo-eau-de-cologne-perfume-unissex-200ml"
+    },
+    {
+      "id": 8,
+      "name": "Bahia Phebo Eau de Parfum",
+      "ml": "100 ML",
+      "src": "https://static.zattini.com.br/produtos/perfume-zimbro-phebo-eau-de-parfum-100ml/60/U28-0090-460/U28-0090-460_zoom1.jpg",     
+      "currency": "20,39",
+      "installment": "22,99",
+      "price": "203,90",
+      "link": "https://www.belezanaweb.com.br/bahia-phebo-eau-de-parfum-perfume-unissex-100ml"
+    },
+    {
+      "id": 9,
+      "name": "English Pear & Freesia Jo Malone London Cologne",
+      "ml": "80 ML",
+      "src": "https://m.media-amazon.com/images/I/71-5LUxlUJL.jpg",     
+      "currency": "110,50",
+      "installment": "99,99",
+      "price": "1.105,00'",
+      "link": "https://www.belezanaweb.com.br/english-pear-e-freesia-jo-malone-london-cologne-perfume-unissex-100ml"
+    },
+    {
+      "id": 10,
+      "name": "Energia Pro Dia o Boticário",
+      "ml": "80 ML",
+      "src": "https://cf.shopee.com.br/file/8ef7f3c2cbdf0aa8dc6e4217bcc69474",     
+      "currency": "6,90",
+      "installment": "8,99",
+      "price": "69,90",
+      "link": "https://www.belezanaweb.com.br/energia-pro-dia-o-boticario-desodorante-colonia-unissex-75ml"
+    }     
   ]
 }

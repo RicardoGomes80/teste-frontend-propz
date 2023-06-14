@@ -1,25 +1,25 @@
-<div class="container bg-principal bg-carousel">
-  <owl-carousel-o [options]="customOptions" class="carousel-products">
-    <ng-container *ngFor="let slide of dynamicSlides">
-      <ng-template carouselSlide [id]="slide.id">
+<div class="container bg-principal bg-carousel"> 
+  <owl-carousel-o [options]="customOptions" class="carousel-products">    
+    <ng-container *ngFor="let produto of produtos">
+      <ng-template carouselSlide [id]="produto.id">
         <div class="slide">
           <div class="item">
             <figure>
-              <img [src]="slide.src" [alt]="slide.name" [title]="slide.name">
+              <img [src]="produto.src" [alt]="produto.name" [title]="produto.name">
             </figure>
             <div class="product-body">
               <h5 class="product-title">
                 <span class="name">
-                  {{slide.name}}
+                  {{produto.name}}
                 </span>
                 <strong class="type">
-                  {{slide.ml}}
+                  {{produto.ml}}
                 </strong>
               </h5>
               <div class="product-text">
                 <div class="currency">
                   <div class="price">
-                    10 x <sup>R$</sup> {{slide.currency}}
+                    10 x <sup>R$</sup> {{produto.currency}}
                     <small>sem juros <sup>1</sup></small>
                   </div>
                   <div class="payment-cards">
@@ -29,15 +29,15 @@
                 </div>
                 <div class="installment">
                   <div class="price">
-                    15 x <sup>R$</sup>{{slide.installment}}
+                    15 x <sup>R$</sup>{{produto.installment}}
                     <small>com juros <sup>2</sup></small>
                   </div>
                   <div class="price-value">
-                    ou R$ {{slide.price}} á vista
+                    ou R$ {{produto.price}} á vista
                   </div>
                 </div>            
                 <a
-                  href="{{slide.link}}"
+                  href="{{produto.link}}"
                   class="product-link" target="_blank">Good Girl Supreme De
                   Carolina Herrera Eau De Parfum Feminino</a>
               </div>
@@ -46,5 +46,6 @@
         </div>
       </ng-template>
     </ng-container>   
-  </owl-carousel-o>
-</div>
+  </owl-carousel-o>     
+</div> 
+

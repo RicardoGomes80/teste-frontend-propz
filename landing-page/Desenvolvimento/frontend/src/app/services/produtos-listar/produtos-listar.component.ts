@@ -14,9 +14,14 @@ export class ProdutosListarComponent implements OnInit{
   ngOnInit(): void {
     this.listarProdutos();
     
+    
   }
 
   listarProdutos(){
-      
+      this.produtosService.listarProdutos().subscribe(produtos => {
+        this.produtos = produtos;
+      },err =>{
+        console.log('Erro ao listar os produtos' , err);
+      })
   }
 }
